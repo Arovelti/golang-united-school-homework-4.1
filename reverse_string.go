@@ -8,6 +8,6 @@ func ReverseString(input string) (output string) {
 		n--
 		reverse[n] = l
 	}
-	output = string(reverse)
+	output = string(reverse[n:])
 	return output
 }
